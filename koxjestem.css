@@ -2097,23 +2097,16 @@ body:before {
 }
 
 .headerPlaying-j0WQBV, .headerStreaming-2FjmGz {
-    background: transparent;
+	background: transparent;
+    background-color: transparent;
 }
 
 .topSectionPlaying-1J5E4n {
-	background: transparent;
-}
-
-.headerPlaying-j0WQBV, .headerStreaming-2FjmGz {
-    background: transparent;
-}
-
-.headerPlaying-j0WQBV, .headerStreaming-2FjmGz {
-    background: transparent;
+	background-color: transparent;
 }
 
 .nowPlayingColumn-2sl4cE {
-    background: transparent;
+    background-color: transparent;
 }
 
 #app-mount .pageWrapper-1PgVDX {							/* guilddiscovery		container							*/
