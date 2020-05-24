@@ -2096,7 +2096,7 @@ body:before {
     background-color: var(--main-transparency);
 }
 
-.headerPlaying-j0WQBV {
+.headerPlaying-j0WQBV, .headerStreaming-2FjmGz {
     background: rgba(22,22,22,.8);
 }
 
@@ -2104,11 +2104,11 @@ body:before {
     background: rgba(33, 33, 33, 0.6);
 }
 
-.headerPlaying-j0WQBV {
+.headerPlaying-j0WQBV, .headerStreaming-2FjmGz {
     background: transparent;
 }
 
-.headerPlaying-j0WQBV {
+.headerPlaying-j0WQBV, .headerStreaming-2FjmGz {
     background: #000000;
 }
 
