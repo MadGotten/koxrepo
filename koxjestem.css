@@ -4116,11 +4116,9 @@ body:before {
 
 /* ----		14.2.	USERPOPOUT						---- */
 
-.userPopout-3XzG_A {
-    box-shadow: none;
-    background: var(--user-popup-background, var(--main-transparency));
+.userPopout-3XzG_A {										/* popout				container							*/
+	box-shadow: 0 0 0 1px rgba(var(--vtransparencycolor), 0.3), 0 2px 10px 0 rgba(var(--vtransparencycolor), 0.3);
 }
-
 .userPopout-3XzG_A:after,
 .userPopout-3XzG_A:before {
 	content: "";
