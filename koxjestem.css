@@ -182,6 +182,10 @@ body,														/* body														*/
 	background: transparent;
 }
 
+.container-3Mxszk {
+	background-color: var(--main-transparency);
+}
+
 #app-mount .sidebarRegion-VFTUkN {							/* settings				sidebar								*/
 	background-color: rgba(var(--vtransparencycolor), 0.2);
 }
@@ -2087,6 +2091,11 @@ body:before {
 .categoryItem-3zFJns.selected-aXhQR6 .name-uJV0GL {
 	color: rgb(var(--fontwhite1));
 }
+
+.theme-dark .activityFeed-1C0EmJ {
+    background-color: var(--main-transparency);
+}
+
 
 #app-mount .pageWrapper-1PgVDX {							/* guilddiscovery		container							*/
 	color: rgb(var(--fontwhite1));
@@ -4154,6 +4163,11 @@ body:before {
 .headerStreaming-2FjmGz {									/* popout				headerstreaming						*/
 	background: #593695;
 }
+
+.theme-dark .activityFeed-28jde9 {
+    background-color: var(--main-transparency);
+}
+
 .activity-11LB_k {											/* popout				activity							*/
 	background-color: rgba(var(--vtransparencycolor), 0.1);
 }
@@ -4163,6 +4177,24 @@ body:before {
 	background-color: transparent;
 	color: rgb(var(--fontwhite2));
 }
+
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
+    background-color: var(--main-transparency);
+    color: hsla(0,0%,100%,.8);
+}
+
+.theme-dark .container-3gCOGc {
+    background-color: var(--main-transparency);
+}
+
+.theme-dark .root-1BQpZw {
+    background-color: var(--main-transparency);
+}
+
+.theme-dark .root-26DmKJ {
+    background-color: var(--main-transparency);
+}
+
 #app-mount .footer-1fjuF6 {
 	border-color: rgba(var(--fontwhite4), 0.3);
 }
