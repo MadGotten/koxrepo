@@ -2092,10 +2092,29 @@ body:before {
 	color: rgb(var(--fontwhite1));
 }
 
-.theme-dark .activityFeed-1C0EmJ {
+.activityFeed-1C0EmJ {
     background-color: var(--main-transparency);
 }
 
+.headerPlaying-j0WQBV {
+    background: rgba(22,22,22,.8);
+}
+
+.topSectionPlaying-1J5E4n {
+    background: rgba(33, 33, 33, 0.6);
+}
+
+.headerPlaying-j0WQBV {
+    background: transparent;
+}
+
+.headerPlaying-j0WQBV {
+    background: #000000;
+}
+
+.nowPlayingColumn-2sl4cE {
+    background: transparent;
+}
 
 #app-mount .pageWrapper-1PgVDX {							/* guilddiscovery		container							*/
 	color: rgb(var(--fontwhite1));
