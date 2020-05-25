@@ -490,7 +490,7 @@ body:before {
 }
 
 .wrapper-1ucjTd:hover .content-3at_AU {						/* channel				content								*/
-	background-color: rgba(var(--vtransparencycolor), 0.2);
+	background-color: rgba(var(--vselectedcolorback), 0.2);
 }
 .modeSelected-1zApJ_ .content-3at_AU,
 .modeSelected-1zApJ_:hover .content-3at_AU {
