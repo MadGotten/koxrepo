@@ -38,6 +38,7 @@
 	--vpopout:						var(--popout,						var(--vbackground));
 	--vpopoutsize:					var(--popoutsize,					var(--vbackgroundsize));
 	--vpopoutblur:					var(--popoutblur,					var(--vbackgroundblur));
+	--vselectedcolorback: 			var(--selectedcolorback);
 	
 	--vbackdrop:					var(--backdrop,						var(--dbackdrop));
 	--vbackdropsize:				var(--backdropsize,					var(--vbackgroundsize));
@@ -493,7 +494,7 @@ body:before {
 }
 .modeSelected-1zApJ_ .content-3at_AU,
 .modeSelected-1zApJ_:hover .content-3at_AU {
-	background-color: rgb(var(--selectedcolorback));
+	background-color: rgb(var(--vselectedcolorback));
 	text-shadow: 1px 1px var(--vtextshadow);
 }
 .modeSelected-1zApJ_ .content-3at_AU svg,
