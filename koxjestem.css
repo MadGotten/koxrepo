@@ -362,10 +362,6 @@ body:before {
 	background-color: rgba(var(--vtransparencycolor), 0.4);
 }
 
-.text-2e2ZyG {
-	font-size: 10px;
-}
-
 .wrapper-1Rf91z .wrapper-21YSNc .expandedGuilds-1JMD4M,
 .wrapper-1Rf91z .wrapper-21YSNc [role="group"] {			/* folder				guildwrap							*/
 	height: auto !important;
@@ -552,6 +548,7 @@ body:before {
 	opacity: 1.0;
 }
 .unread-3zKkbm {
+	font-size: 4px;
 	background-color: rgb(var(--fontwhite1));
 }
 
