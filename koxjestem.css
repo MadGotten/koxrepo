@@ -28,6 +28,7 @@
 	--vscrollcolor: 				var(--scrollcolor);
 	--vlinkcolor:					var(--vaccentcolor);
 	--vcolorselectedchannel:  		var(--colorselectedchannel);
+	--vselectioncolor:				var(--selectioncolor);
 	
 	--vfont:						var(--font,							var(--dfont));
 	--vtextshadow:					var(--textshadow,					var(--dtextshadow));
@@ -5231,7 +5232,7 @@ body:before {
 }
 
 ::selection {												/* selection												*/
-	background: rgb(var(--vaccentcolor));
+	background: rgb(var(--vselectioncolor));
 }
 
 #app-mount .elevationLow-2lY09M, .lightElevationLow-3_Ybxi, .darkElevationLow-DABD7i {
