@@ -489,7 +489,7 @@ body:before {
 }
 
 .wrapper-1ucjTd:hover .content-3at_AU {						/* channel				content								*/
-	background-color: rgba(42, 88, 241, 0.6);
+	background-color: rgba(var(--vtransparencycolor), 0.2);
 }
 .modeSelected-1zApJ_ .content-3at_AU,
 .modeSelected-1zApJ_:hover .content-3at_AU {
@@ -606,7 +606,7 @@ body:before {
 	background-color: rgba(var(--vtransparencycolor), 0.2);
 }
 .selected-aXhQR6.channel-2QD9_O .layout-2DM8Md {
-	background-color: rgb(var(--vaccentcolor));
+	background-color: rgb(255,100,100);
 	text-shadow: 1px 1px var(--vtextshadow);
 }
 .selected-aXhQR6.channel-2QD9_O .layout-2DM8Md svg {
