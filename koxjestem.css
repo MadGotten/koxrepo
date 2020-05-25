@@ -493,7 +493,7 @@ body:before {
 }
 .modeSelected-1zApJ_ .content-3at_AU,
 .modeSelected-1zApJ_:hover .content-3at_AU {
-	background-color: rgb(1,255,20);
+	background-color: rgb(var(--vaccentcolor));
 	text-shadow: 1px 1px var(--vtextshadow);
 }
 .modeSelected-1zApJ_ .content-3at_AU svg,
