@@ -38,7 +38,6 @@
 	--vpopout:						var(--popout,						var(--vbackground));
 	--vpopoutsize:					var(--popoutsize,					var(--vbackgroundsize));
 	--vpopoutblur:					var(--popoutblur,					var(--vbackgroundblur));
-	--vselectedcolorback: 			var(--selectedcolorback);
 	
 	--vbackdrop:					var(--backdrop,						var(--dbackdrop));
 	--vbackdropsize:				var(--backdropsize,					var(--vbackgroundsize));
@@ -490,11 +489,11 @@ body:before {
 }
 
 .wrapper-1ucjTd:hover .content-3at_AU {						/* channel				content								*/
-	background-color: rgba(var(--vselectedcolorback), 0.2);
+	background-color: rgba(var(--vtransparencycolor), 0.2);
 }
 .modeSelected-1zApJ_ .content-3at_AU,
 .modeSelected-1zApJ_:hover .content-3at_AU {
-	background-color: rgb(var(--vselectedcolorback));
+	background-color: rgb(1,255,20);
 	text-shadow: 1px 1px var(--vtextshadow);
 }
 .modeSelected-1zApJ_ .content-3at_AU svg,
