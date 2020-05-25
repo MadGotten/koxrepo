@@ -27,6 +27,7 @@
 	--vaccentcolor:					var(--accentcolor,					var(--daccentcolor));
 	--vscrollcolor: 				var(--scrollcolor);
 	--vlinkcolor:					var(--vaccentcolor);
+	--vcolorselectedchannel:  		var(--colorselectedchannel);
 	
 	--vfont:						var(--font,							var(--dfont));
 	--vtextshadow:					var(--textshadow,					var(--dtextshadow));
@@ -493,7 +494,7 @@ body:before {
 }
 .modeSelected-1zApJ_ .content-3at_AU,
 .modeSelected-1zApJ_:hover .content-3at_AU {
-	background-color: rgb(var(--vaccentcolor));
+	background-color: rgb(var(--vcolorselectedchannel));
 	text-shadow: 1px 1px var(--vtextshadow);
 }
 .modeSelected-1zApJ_ .content-3at_AU svg,
