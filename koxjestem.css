@@ -25,6 +25,7 @@
 	--vguildchanneltransparency:	var(--guildchanneltransparency,		var(--dguildchanneltransparency));
 	--vmemberlisttransparency:		var(--memberlisttransparency,		var(--dmemberlisttransparency));
 	--vaccentcolor:					var(--accentcolor,					var(--daccentcolor));
+	--vscrollcolor: 				var(--scrollcolor);
 	--vlinkcolor:					var(--vaccentcolor);
 	
 	--vfont:						var(--font,							var(--dfont));
@@ -6280,7 +6281,7 @@ img[src="/assets/e8b66317ab0dc9ba3bf8d41a4f3ec914.png"] {	/* videosettings		opus
 #app-mount ::-webkit-scrollbar-thumb {
 	border-radius: 10px;
 	border: none;
-	background-color: rgb(var(--vaccentcolor));
+	background-color: rgb(var(--vscrollcolor));
 }
 ::-webkit-scrollbar-corner,
 #app-mount ::-webkit-scrollbar-corner {
